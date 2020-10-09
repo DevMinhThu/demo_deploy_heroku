@@ -1,0 +1,105 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/css/todos.css">
+    <title>App To Do</title>
+</head>
+
+<body>
+    <div class="containerApp">
+        <div id="myDIV" class="header">
+            <h2 style="margin:5px">My To Do List</h2>
+            <div>
+                <input type="text" id="myInput" placeholder="Title...">
+                <button onclick="newElement()">Add</button>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="title">
+                <h5>Title</h5>
+                <h5>Status</h5>
+                
+            </div>
+            <div class="status">
+                <ul id="myUL">
+                    <li class="checked">Read books</li>
+                    <li>Learning</li>
+                    <li>Buy eggs</li>
+                </ul>
+                <ul id="myUL">
+                    <li class="checked">Progress</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+</head>
+<style>
+    body {
+        font-size: 16px;
+        width: 600px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0 auto;
+    }
+
+    .done {
+        background-color: crimson;
+        color: #fff;
+    }
+
+    .progress {
+        background-color: blue;
+        color: #fff;
+    }
+
+    .new {
+        background-color: green;
+        color: #fff;
+    }
+
+    .todos {
+        border: 1px solid black;
+    }
+
+    .todos>li {
+        list-style: none;
+    }
+
+    .cell {
+        display: inline-block;
+        width: 200px;
+        padding: 5px;
+        border-left: 1px solid black;
+    }
+</style>
+
+<body>
+    <h1>To do list</h1>
+    <a href="./new">Create to do</a>
+    <ul class="todos">
+        <li>
+            <div class="cell">Title</div>
+            <div class="cell status">Status</div>
+        </li>
+        <li>
+            <div class="cell">Back-end Ex</div>
+            <div class="cell status">Progress</div>
+        </li>
+    </ul>
+</body>
+
+</html>
