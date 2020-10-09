@@ -1,0 +1,12 @@
+{
+  "name": "flappybird_heroku",
+  "version": "1.0.0",
+  "description": "flappybird",
+  "main": "Game.js",
+  "scripts": {
+    "start": "flappyBird.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vmthu",
+  "license": "ISC"
+}
